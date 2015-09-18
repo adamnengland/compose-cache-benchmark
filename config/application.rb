@@ -19,11 +19,5 @@ module ComposeCacheBenchmark
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
-
-    # Memcache Localhost
-    #config.cache_store = :mem_cache_store, "localhost"
-
-    # memcachier
-    #config.cache_store = :mem_cache_store, "426773/e0b11edf107b4e5c23a248995cc11606@mc5.dev.ec2.memcachier.com:11211"
   end
 end
